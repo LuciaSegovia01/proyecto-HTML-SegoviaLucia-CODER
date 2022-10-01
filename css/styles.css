@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*---Header---*/
+
+.header{
+    background-color:rgba(172, 255, 47, 0.438);
+    color: white;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heaader__title{
+    color: lightcyan;
+    text-align: left;
+
+}
+
+.header__nav{
+    width: 50px;
+}
+.header__nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media(min-width: 768px) {
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header__nav{
+        width: 50%;
+    }
+}
+
+
+/*---Portada---*/
+
+.portada{
+    height: 100vh;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(172, 255, 47, 0.274);
+    border-radius: 30px;
+    color: rgb(96, 96, 236);
+
+}
+
+/*---Sections---*/
+    
+.tarjeta__title1{
+    background-color: rgb(172, 226, 92);
+    padding: 15px;
+    text-align: left;
+    font-size: 2rem;
+}
+
+
+.tarjeta__title2{
+    background-color: rgb(172, 226, 92);
+    padding: 15px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.tarjeta__title3{
+    background-color: rgb(172, 226, 92);
+    padding: 15px;
+    text-align: right;
+    font-size: 2rem;
+}
+
+.tarjeta{
+    border: 2px solid rgb(172, 226, 92);
+    width: 300px;
+    height: 450px;
+    border-radius: 30px;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.slider{
+    display: flex;
+    gap: 200px;
+}
+
+.section__title4{
+    background-color: rgb(141, 219, 23);
+    padding: 8px;
+    text-align: center;
+}
+
+.tarjeta__text2{
+    border: 2px solid white;
+    width: 600px;
+    height: 200px;
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 100px;
+
+}
+
+
+/*---Section2---*/
+
+.section2__text{
+    color: rgb(96, 96, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-image: url(..//);
+    (fotos en carrucel)
+
+}
+
+
+.section__title4{
+    background-color: rgb(141, 219, 23);
+    padding: 15px;
+    text-align: center;
+}
+
+.tarjeta__text2{
+    border: 2px solid white;
+    width: 600px;
+    height: 200px;
+    border-radius: 30px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+
+/*---Section3---*/
+.section3__text{
+    height: 100vh;
+    background-image: url(../assets/desierto.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(96, 96, 236);    
+}
+
+
+.section__title4{
+    background-color: rgb(141, 219, 23);
+    padding: 8px;
+    align-items: center;
+    text-align: center;
+}
+
+.tarjeta__text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    width: 600px;
+    height: 200px;
+    border-radius: 30px;
+    padding: 30px;
+    
+
+}
+
+/*---Section4---*/
+.section4__text{
+    color: rgb(96, 96, 236);;
+    text-align: center;
+    background-image: url();
+    (fotos en circulos alrededor del texto)
+
+
+}
+
+
+.section__title4{
+    background-color: rgb(141, 219, 23);
+    padding: 8px;
+    text-align: center;
+}
+
+.tarjeta__text2{
+    border: 2px solid white;
+    width: 600px;
+    height: 200px;
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.conteiner-fluid{
+    margin-block-end: auto;
+}
+
+
+
+
