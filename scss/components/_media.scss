@@ -1,0 +1,289 @@
+@media (min-width:576px) {
+
+    .header__nav{
+        width: 100%;
+        
+    }
+    
+    /*---index---*/
+    
+    .portada{
+        display: none;
+    }
+
+    .d-block{
+        padding: 0%;
+        width: 100%;
+        height: 100%;
+        margin: 30px auto;
+    } 
+    
+    .slider{
+       display: flex;
+       flex-direction: column;
+    }
+  
+    .section__title4{
+        width: 100%;
+        height: 100%;
+      
+    
+       .tarjeta__text2{
+           text-align: center;
+           display: flex;
+       
+       }
+    
+    }
+
+    .btn.center{
+        text-align: center;
+        display: flex;
+    }
+
+    /*---mares---*/
+
+    .c-block{
+        padding: -7px;
+        width: 200vh;
+        height: 100vh;
+        margin-top: -75px;
+        margin-left: -200px;
+    }
+    .section2__text2{
+        width: 1000px;
+        margin-left: 0px;
+
+        .section2__text{
+            width: 1000px;
+            margin-left: 0px;
+
+        }
+    }
+
+    .section__title4{
+        display: none;
+
+        .tarjeta__text2{
+            display: none;
+        }
+    }
+
+    
+    .btn.center{
+        text-align: center;
+        display: flex;
+    }
+
+    /*---desiertos---*/
+
+    .section3__img{
+        padding: -7px;
+        width: 200vh;
+        height: 100vh;
+        margin-top: -75px;
+        margin-left: -200px;
+    }
+
+    .section3__text3{
+        width: 1000px;
+        margin-left: 0px;
+
+        .section3__text{
+            width: 1000px;
+            margin-left: 0px;
+
+        }
+    }
+    .section__title4{
+        display: none;
+
+        .tarjeta__text2{
+            display: none;
+        }
+    }
+
+    .btn.center{
+        text-align: center;
+        display: flex;
+    }
+
+
+    /*---bosques---*/
+    
+    .section4__text4{
+        width: 1000px;
+        margin-left: 0px;
+
+        .section4__text{
+            width: 1000px;
+            margin-left: 0px;
+
+        }
+    }
+
+    .section__title4{
+        display: none;
+
+        .tarjeta__text2{
+            display: none;
+        }
+    }
+
+
+    .btn.center{
+        text-align: center;
+        display: flex;
+    }
+
+    /*---footer---*/
+    .conteiner-fluid{
+        height: 100%;
+        width: 100%;
+       
+    }
+    
+}
+
+@media (min-width:768px){
+
+    .portada{
+        height: 100%;
+    }
+
+    .d-block{
+        padding: 0%;
+        width: 100%;
+        height: 100%;
+        margin: 30px auto;
+    } 
+    
+    .slider{
+       display: flex;
+       flex-direction:row;
+    }
+
+
+      /*---mares---*/
+
+      .c-block{
+        padding: -7px;
+        width: 200vh;
+        height: 100vh;
+        margin-top: -75px;
+        margin-left: -200px;
+    }
+    .section2__text2{
+        width: 1000px;
+        margin-left: 0px;
+
+        .section2__text{
+            width: 1000px;
+            margin-left: 0px;
+
+        }
+    }
+    .section__title4{
+        display: none;
+
+        .tarjeta__text2{
+            display: none;
+        }
+    }
+
+
+    .btn.center{
+        text-align: center;
+        display: flex;
+    }
+    
+
+    /*---desiertos---*/
+
+    .section3__img{
+        padding: -7px;
+        width: 200vh;
+        height: 100vh;
+        margin-top: -75px;
+        margin-left: -200px;
+    }
+
+    .section3__text3{
+        width: 1000px;
+        margin-left: 0px;
+
+        .section3__text{
+            width: 1000px;
+            margin-left: 0px;
+
+        }
+    }
+
+    .section__title4{
+        display: none;
+
+        .tarjeta__text2{
+            display: none;
+        }
+    }
+
+    .btn.center{
+        text-align: center;
+        display: flex;
+    }
+
+
+    /*---bosques---*/
+    
+    .section4__text4{
+        width: 1000px;
+        margin-left: 0px;
+
+        .section4__text{
+            width: 1000px;
+            margin-left: 0px;
+
+        }
+    }
+
+    .section__title4{
+        display: none;
+
+        .tarjeta__text2{
+            display: none;
+        }
+    }
+
+    .btn.center{
+        text-align: center;
+        display: flex;
+    }
+
+    /*---footer---*/
+    .conteiner-fluid{
+        height: 100%;
+        width: 100%;
+       
+    }
+
+    .section2__text{
+        width: 100%;
+     height: 100%;
+    }
+    
+    .section__title4{
+        display: none;
+
+        .tarjeta__text2{
+            display: none;
+        }
+    
+}
+
+@media (min-width:124px){
+    .d-block{
+        display: none;
+    }
+    
+}
+}

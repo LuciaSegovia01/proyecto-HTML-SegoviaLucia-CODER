@@ -1,0 +1,28 @@
+.header{
+    background-color: $color-primario;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    width: 91%;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav ul{
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    font-family: $font-family-impact;
+}
+
+.img-logo{
+    position: absolute;
+    top: -15%;
+    left: -1%;
+    width: 300px;
+    height: 290px;
+}

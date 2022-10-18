@@ -1,0 +1,18 @@
+.conteiner-fluid{
+    background-color: $color-primario;
+    border-top: 5px;
+    height: 50%;
+    width: 100%;
+    margin-bottom: -60px;
+
+    .cont-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+    
+    }
+}
+
+
+

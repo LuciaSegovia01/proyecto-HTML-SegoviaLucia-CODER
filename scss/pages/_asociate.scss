@@ -1,0 +1,38 @@
+.intro-asociate{
+    display: flex;
+    flex-direction:row;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+    .img-logo-asoc{
+        position: absolute;
+        top: 40%;
+        left: 0%;
+        width: 300px;
+        height: 300px;  
+    }
+    
+}
+
+.intro-asociate p{
+    text-align: center;
+    margin-top: 65px;
+    font-family: $font-family-lucida;
+}
+
+
+.caja-de-datos div{
+    margin-top: -3%;
+}
+
+.caja-de-datos input{
+    width: 100%;
+    height: 20%;
+    margin-top: -5%;
+}
+.info-datos h3{
+    margin-top: -10%;
+}
+.info-datos h4{
+    margin-top: -0%;
+}

@@ -29,7 +29,7 @@
          <section class="section">
              <article  class="section__text">
                 <div class="intro-asociate">
-                <a href="./index.html"> <img src="../assets/logo.jpg..png" alt="" class="img-logo"></a>
+                <a href="./index.html"> <img src="../assets/logo.jpg..png" alt="" class="img-logo-asoc"></a>
                  <p><em>Proponer e implemetar soluciones para conservar la naturaleza, promover el uso sustentable
                 de los recursos naturales y mantener la conducta responsable del hombre en un contexto de cambio
                 climatico es lo que tratamos de concientizar todos los días!
@@ -48,95 +48,115 @@
             </article>
         </section>
          <di class="caja-de-datos">
-             <label for="nombre/s" class="info">Nombre/s</label>
-             <input type="text" name="nombre/s" id="nombre/s">
+             <label for="nombre/s" class="info"><em>Nombre/s</em></label>
+             <input class="complete" type="text" name="nombre/s" id="nombre/s">
          </div>
 
          <div class="caja-de-datos">
-             <label for="apellido/s" class="info">Apellido/s</label>
-             <input type="text" name="apellido/s" id="apellido/s">
+             <label for="apellido/s" class="info"><em> Apellido/s</em></label>
+             <input class="complete" type="text" name="apellido/s" id="apellido/s">
          </div>
 
          <div class="caja-de-datos">
-             <label for="Email" class="info">Email</label>
-             <input type="email" name="email" id="email">
+             <label for="Email" class="info"><em>Email</em></label>
+             <input class="complete" type="email" name="email" id="email">
          </div>
 
          <div class="caja-de-datos">
-             <label for="dirección" class="info">Dirección</label>
-             <input type="text" name="dirección" id="dirección">
+             <label for="dirección" class="info"><em>Dirección</em></label>
+             <input class="complete" type="text" name="dirección" id="dirección">
          </div>
 
          <div class="caja-de-datos">
-             <label for="ciudad" class="info">Ciudad</label>
-             <input type="text" name="ciudad" id="ciudad"> 
+             <label for="ciudad" class="info"><em>Ciudad</em></label>
+             <input class="complete" type="text" name="ciudad" id="ciudad"> 
          </div>
     
          <div class="caja-de-datos">
-             <label for="código-postal" class="info">Código Postal</label>
-             <input type="text" name="código-postal" id="código-postal">
+             <label for="código-postal" class="info"><em>Código Postal</em></label>
+             <input class="complete" type="text" name="código-postal" id="código-postal">
          </div>
 
          <div class="caja-de-datos">
-             <label for="provincia" class="info">Provincia</label>
-             <input type="text" name="Provincia" id="provincia">
+             <label for="provincia" class="info"><em>Provincia</em></label>
+             <input class="complete" type="text" name="Provincia" id="provincia">
          </div>
 
          <div class="caja-de-datos">
-             <label for="país" class="info">País</label>
-             <input type="text" name="país" id="país">
+             <label for="país" class="info"><em>País</em></label>
+             <input class="complete" type="text" name="país" id="país">
          </div>
 
          <div class="caja-de-datos">
-             <label for="teléfono" class="info">Teléfono</label>
-             <input type="tel" name="teléfono" id="teléfono">
+             <label for="teléfono" class="info"><em>Teléfono</em></label>
+             <input class="complete" type="tel" name="teléfono" id="teléfono">
          </div>
 
-         <div class="caja-de-datos">
-             <label for="">¿Cuánto querés donar?</label>
+         <div class="info">
+            <label for=""><h5><em>¿Cuánto querés donar?</em></h5></label>
+         </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check" type="checkbox" id="how-many" value="option1">
+            <label class="form-check-label" for="how-many">$200</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check" type="checkbox" id="how-many" value="option2">
+            <label class="form-check-label" for="how-many">$400</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check" type="checkbox" id="how-many" value="option3">
+            <label class="form-check-label" for="how-many">$600</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check" type="checkbox" id="how-many" value="option2">
+            <label class="form-check-label" for="how-many">Más</label>
+        </div>
+   
+        <div class="info">
+             <label for="selección-frecuenciadepago"><h5><em>¿Con qué frecuencia querés donar?</em></h5></label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label" for="única-vez">Única vez</label>
+           <input class="form-check" type="radio" name="seleccione-opcion" id="única-vez">
+         </div>
+         <div class="form-check">
+            <label class="form-check-label" for="mensualmente">Mensualmente</label>
+           <input class="form-check" type="radio" name="seleccione-opcion" id="mensualmente" checked>
+        </div>
+
+         <div class="info">
+             <label for=""><h5><em>¿De donde querés que se debite tu donación?</em></h5></label>
+             <div>
+                <i class="bi bi-credit-card"></i>
+                <i class="bi bi-credit-card-2-back"></i>
+                <i class="bi bi-credit-card-2-back-fill"></i>
+                <i class="bi bi-credit-card-fill"></i>
+             </div>
          </div>
 
-         <div class="caja-de-datos">
-             <label for="selección-frecuenciadepago">¿Con qué frecuencia querés donar?</label>
-        
-         </div>
-
-         <div>
-             <label for="mensual">Mensual</label>
-             <input type="radio" name="selección-frecuenciadepago" id="selección-frecuenciadepago">
-         </div>
-
-         <div>
-             <label for="única-vez">Única vez</label>
-             <input type="radio" name="selección-frecuenciadepago" id="selección-frecuenciadepago">
-         </div>
-
- 
-         <div class="caja-de-datos">
-             <label for="">¿De donde querés que se debite tu donación?</label>
-         </div>
-
-         <div>
+        <div>
+            <article class="info-datos">
              <h4>DATOS DE LA TARJETA</h4>
+            </article>
+        </div>
+
+         <div class="caja-de-datos">
+             <label for="número-de-la-tarjeta"><em></em>Número de la tarjeta</em></label>
+             <input class="complete" type="text" name="número-de-la-tarjeta" id="número-de-la-tarjeta">
          </div>
 
          <div class="caja-de-datos">
-             <label for="número-de-la-tarjeta">Número de la tarjeta</label>
-             <input type="text" name="número-de-la-tarjeta" id="número-de-la-tarjeta">
+             <label for="fechadeexpiración"><em>Fecha de expiración</em></label>
+             <input class="complete" type="date" name="fechadeexpiración" id="fechadeexpiración">
          </div>
 
          <div class="caja-de-datos">
-             <label for="fechadeexpiración">Fecha de expiración</label>
-             <input type="date" name="fechadeexpiración" id="fechadeexpiración">
-         </div>
-
-         <div class="caja-de-datos">
-             <label for="código-de-seguridad">Código de seguridad</label>
-             <input type="password" name="código-de-seguridad" id="código-de-seguridad">
+             <label for="código-de-seguridad"><em>Código de seguridad</em></label>
+             <input class="complete" type="password" name="código-de-seguridad" id="código-de-seguridad">
          </div>
 
          <div>
-             <label for="tipo-de-documento">Tipo de documento</label>
+             <label for="tipo-de-documento"><em>Tipo de documento</em></label>
              <select id="tipo-de-documento">
                  <option value="DNI">DNI</option>
                  <option value="LC">LC</option>
@@ -147,8 +167,8 @@
          </div>
 
          <div class="caja-de-datos">
-             <label for="número-de-documento">Número de documento</label>
-             <input type="text" name="númerodedocumento" id="número-de-documento">
+             <label for="número-de-documento"><em>Número de documento</em></label>
+             <input class="complete" type="text" name="númerodedocumento" id="número-de-documento">
          </div>
 
          <div class="btn.center">

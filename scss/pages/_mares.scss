@@ -1,0 +1,26 @@
+.section2__text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    text-align: left;
+    text-shadow: 5px 5px 20px;
+    
+    .section2__text{
+        margin-top: -50px;
+    }
+}
+
+.section__title{
+    background-color: $color-primario;
+    padding: 8px;
+    text-align: center;
+}
+
+.tarjeta__{
+    padding: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
