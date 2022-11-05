@@ -22,9 +22,10 @@ ul a {
 .d-block {
   padding: 0%;
   width: 196vh;
-  height: 100vh;
   margin-top: 19px;
   margin-left: 0px;
+  justify-content: center;
+  align-items: center;
 }
 
 .c-block {
@@ -32,7 +33,7 @@ ul a {
   width: 200vh;
   height: 100vh;
   margin-top: -75px;
-  margin-left: -200px;
+  margin-left: -50px;
 }
 
 .conteiner-fluid {
@@ -127,6 +128,28 @@ ul a {
   text-align: center;
 }
 
+.img_lobo {
+  width: 70vh;
+  height: 70vh;
+}
+
+.img_oso {
+  width: 80vh;
+  height: 80vh;
+}
+
+.img_naturaleza {
+  width: 100vh;
+  height: 100vh;
+  margin-top: -120px;
+}
+
+.img_ciervo {
+  width: 60vh;
+  height: 60vh;
+  margin-top: -160px;
+}
+
 .tarjeta__ {
   padding: 30px;
   display: flex;
@@ -134,12 +157,17 @@ ul a {
   align-items: center;
 }
 
-.section3__img {
+.img-fluid {
   padding: 0%;
-  width: 196vh;
-  height: 100vh;
-  margin-top: 19px;
-  margin-left: -87px;
+  width: auto;
+  height: auto;
+  margin-top: 12px;
+  margin-left: 20px;
+}
+
+.img_cactus {
+  margin-top: -110px;
+  margin-left: 200px;
 }
 
 .section3__text3 {
@@ -161,16 +189,13 @@ ul a {
   align-items: center;
 }
 
-.portada {
-  height: 100vh;
+.fondo_carrousel {
+  height: -80vh;
   background-position: center;
-  background-size: cover;
-  margin-top: 130px;
-  margin-left: 20px;
+  margin-top: -44px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(172, 255, 47, 0.274);
   color: rgb(96, 96, 236);
 }
 
@@ -183,6 +208,7 @@ ul a {
 .slider {
   display: flex;
   gap: 200px;
+  margin-top: -50px;
 }
 
 .tarjeta__title1 {
@@ -221,12 +247,19 @@ ul a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -50px;
+  margin-top: -140px;
   text-align: left;
   text-shadow: 5px 5px 20px;
 }
 .section2__text2 .section2__text {
   margin-top: -50px;
+}
+
+.img_foca {
+  width: 100vh;
+  height: 100vh;
+  margin-top: -107px;
+  margin-left: 210px;
 }
 
 .section__title {
@@ -247,14 +280,14 @@ ul a {
     width: 100%;
   }
   /*---index---*/
-  .portada {
-    display: none;
-  }
   .d-block {
+    display: flex;
     padding: 0%;
-    width: 100%;
-    height: 100%;
-    margin: 30px auto;
+    width: auto;
+    margin-top: 19px;
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
   }
   .slider {
     display: flex;
@@ -274,8 +307,9 @@ ul a {
   }
   /*---mares---*/
   .c-block {
+    display: flex;
     padding: -7px;
-    width: 200vh;
+    width: auto;
     height: 100vh;
     margin-top: -75px;
     margin-left: -200px;
@@ -292,6 +326,9 @@ ul a {
     display: none;
   }
   .section__title4 .tarjeta__text2 {
+    display: none;
+  }
+  .section__title4 .img_foca {
     display: none;
   }
   .btn.center {
@@ -320,6 +357,9 @@ ul a {
   .section__title4 .tarjeta__text2 {
     display: none;
   }
+  .section__title4 .img_cactus {
+    display: none;
+  }
   .btn.center {
     text-align: center;
     display: flex;
@@ -332,6 +372,18 @@ ul a {
   .section4__text4 .section4__text {
     width: 1000px;
     margin-left: 0px;
+  }
+  .section4__text4 .img_lobo {
+    display: none;
+  }
+  .section4__text4 .img_oso {
+    display: none;
+  }
+  .section4__text4 .img_naturaleza {
+    display: none;
+  }
+  .section4__text4 .img_ciervo {
+    display: none;
   }
   .section__title4 {
     display: none;
@@ -355,9 +407,18 @@ ul a {
   }
   .d-block {
     padding: 0%;
-    width: 100%;
-    height: 100%;
-    margin: 30px auto;
+    width: 196vh;
+    margin-top: 19px;
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .section_portada {
+    padding: 100px;
+    width: 200vh;
+    height: 100vh;
+    margin-top: -75px;
+    margin-left: -50px;
   }
   .slider {
     display: flex;
@@ -385,6 +446,9 @@ ul a {
   .section__title4 .tarjeta__text2 {
     display: none;
   }
+  .section__title4 .img_foca {
+    display: none;
+  }
   .btn.center {
     text-align: center;
     display: flex;
@@ -411,6 +475,9 @@ ul a {
   .section__title4 .tarjeta__text2 {
     display: none;
   }
+  .section__title4 .img_cactus {
+    display: none;
+  }
   .btn.center {
     text-align: center;
     display: flex;
@@ -423,6 +490,18 @@ ul a {
   .section4__text4 .section4__text {
     width: 1000px;
     margin-left: 0px;
+  }
+  .section4__text4 .img_lobo {
+    display: none;
+  }
+  .section4__text4 .img_oso {
+    display: none;
+  }
+  .section4__text4 .img_naturaleza {
+    display: none;
+  }
+  .section4__text4 .img_ciervo {
+    display: none;
   }
   .section__title4 {
     display: none;
@@ -447,11 +526,6 @@ ul a {
     display: none;
   }
   .section__title4 .tarjeta__text2 {
-    display: none;
-  }
-}
-@media (min-width: 768px) and (min-width: 124px) {
-  .d-block {
     display: none;
   }
 }

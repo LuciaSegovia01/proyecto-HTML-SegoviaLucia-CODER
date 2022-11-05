@@ -1,23 +1,23 @@
 @media (min-width:576px) {
 
+
     .header__nav{
         width: 100%;
         
     }
     
     /*---index---*/
-    
-    .portada{
-        display: none;
-    }
 
     .d-block{
+        display: flex;
         padding: 0%;
-        width: 100%;
-        height: 100%;
-        margin: 30px auto;
-    } 
-    
+        width: auto;
+        margin-top: 19px;
+        margin-left: -0px;
+        justify-content: center;
+        align-items: center;
+    }
+
     .slider{
        display: flex;
        flex-direction: column;
@@ -44,8 +44,9 @@
     /*---mares---*/
 
     .c-block{
+        display: flex;
         padding: -7px;
-        width: 200vh;
+        width: auto;
         height: 100vh;
         margin-top: -75px;
         margin-left: -200px;
@@ -65,6 +66,10 @@
         display: none;
 
         .tarjeta__text2{
+            display: none;
+        }
+
+        .img_foca{
             display: none;
         }
     }
@@ -95,10 +100,15 @@
 
         }
     }
+
     .section__title4{
         display: none;
 
         .tarjeta__text2{
+            display: none;
+        }
+
+        .img_cactus{
             display: none;
         }
     }
@@ -120,7 +130,24 @@
             margin-left: 0px;
 
         }
+
+        .img_lobo{
+            display: none;
+        }
+
+        .img_oso{
+            display: none;
+        }
+
+        .img_naturaleza{
+            display: none;
+        }
+
+        .img_ciervo{
+            display: none;
+        }
     }
+
 
     .section__title4{
         display: none;
@@ -153,18 +180,29 @@
 
     .d-block{
         padding: 0%;
-        width: 100%;
-        height: 100%;
-        margin: 30px auto;
-    } 
+        width: 196vh;
+        margin-top: 19px;
+        margin-left: -0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section_portada{
+        padding: 100px;
+        width: 200vh;
+        height: 100vh;
+        margin-top: -75px;
+        margin-left: -50px;
+    }
     
+
     .slider{
        display: flex;
        flex-direction:row;
     }
 
 
-      /*---mares---*/
+   /*---mares---*/
 
       .c-block{
         padding: -7px;
@@ -183,10 +221,16 @@
 
         }
     }
+
+
     .section__title4{
         display: none;
 
         .tarjeta__text2{
+            display: none;
+        }
+
+        .img_foca{
             display: none;
         }
     }
@@ -219,10 +263,15 @@
         }
     }
 
+
     .section__title4{
         display: none;
 
         .tarjeta__text2{
+            display: none;
+        }
+
+        .img_cactus{
             display: none;
         }
     }
@@ -242,7 +291,22 @@
         .section4__text{
             width: 1000px;
             margin-left: 0px;
+        }
 
+        .img_lobo{
+            display: none;
+        }
+
+        .img_oso{
+            display: none;
+        }
+
+        .img_naturaleza{
+            display: none;
+        }
+
+        .img_ciervo{
+            display: none;
         }
     }
 
@@ -252,7 +316,9 @@
         .tarjeta__text2{
             display: none;
         }
+
     }
+
 
     .btn.center{
         text-align: center;
@@ -280,10 +346,8 @@
     
 }
 
-@media (min-width:124px){
-    .d-block{
-        display: none;
-    }
+@media (min-width:1024px){
+   
     
 }
 }
