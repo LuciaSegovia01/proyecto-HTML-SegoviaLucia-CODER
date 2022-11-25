@@ -6,30 +6,27 @@
 
 .section__title{
     background-color: $color-primario;
-    padding: 8px;
     text-align: center;
 }
 .img_lobo{
-    width: 70vh;
-    height: 70vh;
+    width: 50%;
+    height: 50%;
 }
 .img_oso{
-    width: 80vh;
-    height: 80vh;
+    width: 40%;
+    height: 40%;
 }
 .img_naturaleza{
-    width: 100vh;
-    height: 100vh;
-    margin-top: -120px;
+    width: 45%;
+    height: 45%;
 }
 .img_ciervo{
-    width: 60vh;
-    height: 60vh;
+    width: 50%;
+    height: 50%;
     margin-top: -160px;
 }
 
 .tarjeta__{
-    padding: 30px;
     display: flex;
     text-align: center;
     align-items: center;

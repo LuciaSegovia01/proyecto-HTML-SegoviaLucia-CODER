@@ -2,11 +2,10 @@
     display: flex;
     flex-direction:row;
     margin-top: 10px;
-    margin-bottom: 40px;
 
     .img-logo-asoc{
         position: absolute;
-        top: 40%;
+        top: 50%;
         left: 0%;
         width: 300px;
         height: 300px;  
@@ -21,18 +20,25 @@
 }
 
 
-.caja-de-datos div{
-    margin-top: -3%;
+.row{
+    margin-top: -100px;
 }
 
-.caja-de-datos input{
-    width: 100%;
-    height: 20%;
-    margin-top: -5%;
+.bi{
+    font-size: 50px;
 }
+
+.form-check{
+    margin-top: -60px;
+}
+
 .info-datos h3{
-    margin-top: -10%;
+    margin-top: -150px;
 }
 .info-datos h4{
-    margin-top: -0%;
+    margin-top: -50px;
+}
+
+.info h5{
+    margin-top: -100px;
 }
