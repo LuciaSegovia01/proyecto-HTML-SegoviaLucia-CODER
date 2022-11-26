@@ -1,21 +1,13 @@
 .intro-asociate{
     display: flex;
     flex-direction:row;
-    margin-top: 10px;
-
-    .img-logo-asoc{
-        position: absolute;
-        top: 25%;
-        left: 0%;
-        width: 300px;
-        height: 300px;  
-    }
+    margin-top: 20px;
     
 }
 
 .intro-asociate p{
     text-align: center;
-    margin-top: 65px;
+    margin-top: 200px;
     font-family: $font-family-lucida;
 }
 

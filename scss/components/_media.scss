@@ -1,10 +1,9 @@
 @media (min-width:576px) {
-
-    .header__nav{
-        width: 100%; 
-        display: flex;
-    }
     
+    .header__nav ul{
+        display:flow-root;
+    }
+   
     /*---index---*/
 
     .d-block{
@@ -153,6 +152,47 @@
 
     .btn.center{
         text-align: center;
+        display: flex;
+    }
+
+    /*---asociate---*/
+
+    .intro-asociate{
+        display: flex;
+        flex-direction:row;
+        margin-top: 20px;
+        
+    }
+    
+    .intro-asociate p{
+        text-align: center;
+        margin-top: 200px;
+        font-family: $font-family-lucida;
+    }
+    
+    
+    .row{
+        display: flex;
+       flex-direction: column;
+    }
+    
+    .bi{
+        font-size: 50px;
+    }
+    
+    .form-check{
+        display: flex;
+       flex-direction: column;
+    }
+    
+    .info-datos h3{
+        display: flex;
+    }
+    .info-datos h4{
+        display: flex;
+    }
+    
+    .info h5{
         display: flex;
     }
 
@@ -318,6 +358,49 @@
         display: flex;
     }
 
+    /*---asociate---*/
+   
+
+    .intro-asociate{
+        display: flex;
+        flex-direction:row;
+        margin-top: 20px;
+        
+    }
+    
+    .intro-asociate p{
+        text-align: center;
+        margin-top: 200px;
+        font-family: $font-family-lucida;
+    }
+    
+    
+    .row{
+        display: flex;
+       flex-direction: column;
+    }
+    
+    .bi{
+        font-size: 50px;
+    }
+    
+    .form-check{
+        display: flex;
+       flex-direction: column;
+    }
+    
+    .info-datos h3{
+        display: flex;
+    }
+    .info-datos h4{
+        display: flex;
+    }
+    
+    .info h5{
+        display: flex;
+    }
+
+
     /*---footer---*/
     .conteiner-fluid{
         height: 100%;
@@ -337,10 +420,13 @@
             display: none;
         }
     
+    
 }
 
 @media (min-width:1024px){
-   
-    
+    .header__nav ul{
+        display: flex;
+    }  
+
 }
 }
